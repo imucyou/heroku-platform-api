@@ -3,7 +3,7 @@ name: heroku-platform-api
 description: "Full-featured Heroku Platform API v3 skill for managing application lifecycle directly via HTTPS — zero CLI dependency. Requires: HEROKU_API_KEY environment variable (Heroku API token), HEROKU_PERMISSION environment variable (readonly or full, defaults to readonly), curl and jq system binaries. Covers: apps, dynos, config vars, releases, add-ons, domains, logs, builds, pipelines, Postgres, maintenance, webhooks, review apps, and CI/CD integration. Includes permission system (readonly/full) with mandatory confirmation for all write operations. Contacts only api.heroku.com and postgres-api.heroku.com. May write to STATUS.md only in multi-agent orchestration mode."
 version: 1.0.0
 license: MIT-0
-homepage: https://github.com/openclaw/skills/tree/main/skills/heroku-platform-api
+homepage: https://github.com/imucyou/heroku-platform-api
 compatibility: "Any environment with curl, jq, and a HEROKU_API_KEY environment variable set."
 metadata:
   clawdbot:
@@ -17,7 +17,7 @@ metadata:
         - jq
     primaryEnv: HEROKU_API_KEY
     always: false
-    homepage: https://github.com/openclaw/skills/tree/main/skills/heroku-platform-api
+    homepage: https://github.com/imucyou/heroku-platform-api
     install:
       - kind: brew
         formula: jq
@@ -41,7 +41,7 @@ metadata:
         - jq
     primaryEnv: HEROKU_API_KEY
     always: false
-    homepage: https://github.com/openclaw/skills/tree/main/skills/heroku-platform-api
+    homepage: https://github.com/imucyou/heroku-platform-api
     install:
       - kind: brew
         formula: jq
